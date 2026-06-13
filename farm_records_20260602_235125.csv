@@ -1,0 +1,2 @@
+timestamp,farmer_name,crop,area_ha,soil_quality,fertilizer_bags,yield_kg,price_per_kg,cost_per_bag,revenue_Le,total_cost_Le,net_profit_Le
+2026-06-02 23:50:55,sahr fabu,Cassava,5.0,High,8.0,65000.0,18000.0,12000.0,1170000000.0,596000.0,1169404000.0

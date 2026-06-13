@@ -1,0 +1,2 @@
+timestamp,farmer_name,crop,area_ha,soil_quality,fertilizer_bags,yield_kg,price_per_kg,cost_per_bag,revenue_Le,total_cost_Le,net_profit_Le
+2026-06-12 13:05:31,ERIC,Cassava,24556.0,Low,58934.4,171892000.0,25000.0,1500.0,4297300000000.0,2544001600.0,4294755998400.0
