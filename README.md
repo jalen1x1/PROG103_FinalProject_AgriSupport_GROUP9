@@ -113,8 +113,10 @@ No external libraries are required – runs with standard Python installation.
 
 ## Screenshots
 - Farm Data Entry
+
   <img width="508" height="502" alt="Screenshot 2026-06-13 192113" src="https://github.com/user-attachments/assets/79a13f3a-71b8-4fac-928b-cfc655e47702" />
 
 - Result & System Output
+
   <img width="435" height="478" alt="Screenshot 2026-06-13 192146" src="https://github.com/user-attachments/assets/74a86e30-51c1-4f62-92c2-706f32eb6536" />
 
