@@ -91,6 +91,14 @@ def add_record_to_storage(name, crop, area_ha, soil, fert_bags, yield_kg,
 
 # ------------------------- GUI APPLICATION -------------------------
 class AgricultureApp:
+    def delete_last_record(self):
+        """Remove the most recently added farm record."""
+        if not farm_records:
+            messagebox.showinfo("No Data", "There are no records to delete.")
+            return
+        removed = farm_records.pop()
+        self.output_text.insert(tk.END, f"\nRemoved last record for {removed['farmer_name']}.\n")
+        self.output_text.see(tk.END)
     def __init__(self, root):
         self.root = root
         self.root.title("Agriculture Support System – Sierra Leone")
@@ -148,6 +156,8 @@ class AgricultureApp:
 
         self.add_btn = ttk.Button(btn_frame, text="Add Record", command=self.add_current_record)
         self.add_btn.grid(row=0, column=1, padx=5)
+        self.delete_btn = ttk.Button(btn_frame, text="Delete Last", command=self.delete_last_record)
+        self.delete_btn.grid(row=0, column=6, padx=5)
 
         self.clear_btn = ttk.Button(btn_frame, text="Clear Fields", command=self.clear_inputs)
         self.clear_btn.grid(row=0, column=2, padx=5)
